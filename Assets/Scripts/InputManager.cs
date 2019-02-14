@@ -7,7 +7,7 @@ public class InputManager : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            LevelManager.instance.ActivateDoor();
+            LevelManager.instance.activateDoor();
         }
     }
 }
