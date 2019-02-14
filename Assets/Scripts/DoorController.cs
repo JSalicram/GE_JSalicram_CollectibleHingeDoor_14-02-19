@@ -13,12 +13,12 @@ public class DoorController : MonoBehaviour {
 
     public void openDoor()
     {
-        Debug.Log
+        Debug.Log("open door");
         //hingeJoint.motor.motorSpeed = -40;
     }
 
     public void closeDoor()
     {
-
+        Debug.Log("close door");
     }
 }
