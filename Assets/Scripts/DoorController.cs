@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class DoorController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private HingeJoint2D hingeJoint;
+
+    private void Start()
+    {
+        hingeJoint = this.gameObject.GetComponent<HingeJoint2D>();
+    }
+
+    public void openDoor()
+    {
+        Debug.Log
+        //hingeJoint.motor.motorSpeed = -40;
+    }
+
+    public void closeDoor()
+    {
+
+    }
 }
